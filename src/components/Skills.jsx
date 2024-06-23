@@ -12,31 +12,31 @@ import tailwind from '../assets/images/tailwind.png'
 
 export const Skills = () => {
   return (<>
+  <h2>skills</h2>
   <div class="parent">
-    <div class="div1">
-    <ul>
-        <li><img src={git} alt="" /></li>
-        <li><img src={github} alt="" /></li>
-      </ul>
+    <div class="div1 tech-stack">
+      <div><img src={git} alt="" /></div>
+      <div><img src={github} alt="" /></div>
     </div>
-    <div class="div2"><h3>version control</h3> </div>
-    <div class="div3"><h3>ux/ui</h3> </div>
-    <div class="div4"><img src={figma} alt="" /></div>
-    <div class="div5"><h3>project managment apps</h3> </div>
-    <div class="div6"><ul>
-        <li><img src={jira} alt="" /></li>
-        <li><img src={trello} alt="" /></li>
-      </ul></div>
-    <div class="div7">        <ul>
-          <li><img src={html} alt="" /></li>
-          <li><img src={css} alt="" /></li>
-          <li><img src={js} alt="" /></li>
-        </ul> </div>
-      <div class="div8"><h3>frontend</h3> </div>
-    <div class="div9">         <ul>
-          <li><img src={react} alt="" /></li>
-          <li><img src={tailwind} alt="" /></li>
-        </ul></div>
+    <div class="div2 subtitle"><h4>version control</h4> </div>
+    <div class="div3 subtitle"><h4>ux/ui</h4> </div>
+    <div class="div4 tech-stack"><div><img src={figma} alt="" /></div></div>
+    <div class="div5 subtitle"><h4>project managment apps</h4> </div>
+    <div class="div6 tech-stack">
+      <div>
+        <img src={jira} alt="" /></div>
+        <div><img src={trello} alt="" /></div>
+        </div>
+    <div class="div7 tech-stack">
+          <div><img src={html} alt="" /></div>
+          <div><img src={css} alt="" /></div>
+          <div><img src={js} alt="" /></div>
+ </div>
+      <div class="div8 subtitle"><h4>frontend</h4> </div>
+    <div class="div9 tech-stack">
+          <div><img src={react} alt="" /></div>
+          <div><img src={tailwind} alt="" /></div>
+        </div>
 </div>
   </>
 
@@ -53,7 +53,7 @@ export const Skills = () => {
         <li><img src={github} alt="" /></li>
       </ul>
     </div>
-    <h3>version control</h3>
+    <h4>version control</h4>
   </div>
   <div>
     <h3>ux/ui</h3>

@@ -33,6 +33,10 @@ h2{
   text-align: center;
   font-weight: 400;
 }
+h4{
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
 body{
   font-family: "NTR", sans-serif;
   background-color: var(--clr-bg-dark);
