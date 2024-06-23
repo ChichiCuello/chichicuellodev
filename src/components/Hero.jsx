@@ -2,9 +2,9 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div>
-      <h1>CHICHI CUELLO</h1>
+    <section className='hero'>
+      <h1 className='title'><span aria-hidden='true'>chichi cuello</span>chichi cuello</h1>
       <h2>frontend developer</h2>
-    </div>
+    </section>
   )
 }

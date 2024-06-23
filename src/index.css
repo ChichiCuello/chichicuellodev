@@ -1,6 +1,5 @@
 @import '~@csstools/normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=NTR&family=Press+Start+2P&display=swap');
-/* font-family: "Press Start 2P" */
 /* variables */
 
 :root {
@@ -27,36 +26,43 @@ html,body{
   padding: 0;
   box-sizing: border-box;
 }
-  body{
-    font-family: "NTR", sans-serif;
-    background-color: var(--clr-bg-dark);
-    color: var(--clr-body-white);
-  }
 
-  button{
-    cursor: pointer;
-    display: block;
-    border: none;
-  }
+h2{
+  margin-block-start: 0rem;
+  color: var(--clr-accent-green);
+  text-align: center;
+  font-weight: 400;
+}
+body{
+  font-family: "NTR", sans-serif;
+  background-color: var(--clr-bg-dark);
+  color: var(--clr-body-white);
+}
 
-  ul{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-  }
-  a {
-    color: var(--clr-gray-body);
-    cursor: pointer;
-  }
+button{
+  cursor: pointer;
+  display: block;
+  border: none;
+}
 
-  li{
-    text-decoration: none;
-    list-style: none;
-  }
+ul{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+a {
+  color: var(--clr-gray-body);
+  cursor: pointer;
+}
 
-  .section{
-    padding: 4rem 0;
-  }
+li{
+  text-decoration: none;
+  list-style: none;
+}
 
-  .basic-margin {
-    margin: 0 10%;
-  }
+.section{
+  padding: 4rem 0;
+}
+
+.basic-margin {
+  margin: 0 10%;
+}

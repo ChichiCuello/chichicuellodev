@@ -8,7 +8,7 @@ import projectImage_3 from '../assets/images/cf-website.png';
 
 export const Projects = () => {
   return (
-    <div>
+    <section id='projects' className='projects'>
       <h2>{data.projects.h2}</h2>
       <div>
         <div>
@@ -57,6 +57,6 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

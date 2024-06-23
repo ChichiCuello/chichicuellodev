@@ -1,5 +1,7 @@
+/* Navigation */
+
 .navbar {
-  margin:1rem 0 ;
+  margin:2rem 0 ;
 }
 
 .menu-toggle {
@@ -23,7 +25,9 @@
 }
 
 @media (max-width: 768px) {  /* For screens smaller than 768px */
-
+  .navbar {
+    margin:1rem 0 ;
+  }
   .menu-toggle {
     display: flex;
     justify-content: flex-end;
@@ -41,3 +45,48 @@
 }
 
 
+/* Hero */
+.hero{
+  height: 80vh;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center; /* Optional for additional centering control */
+}
+.title{
+  font-family: "Press Start 2P";
+  position: relative;
+  color: var(--clr-primary-purple);
+  font-size: var(--display-1);
+}
+
+.title span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--clr-accent-green);
+  z-index: -1;
+  text-align: center;
+  transform: translateX(0.5rem);
+}
+
+@media (max-width: 768px) {
+  .title{
+    font-size: 3rem;
+  }
+}
+
+/* about */
+.about{
+  padding: 3rem 0;
+  margin: 0 20%;
+}
+
+@media (max-width: 768px) {
+  .about{
+    margin: 0 5%;
+  }
+}
+
+/* projects */
