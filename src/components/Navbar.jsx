@@ -1,10 +1,11 @@
 import React from 'react'
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 
 export const Navbar = () => {
   return (
     <div>
       <FaBars />
+      <FaTimes />
       <ul>
         <li>about</li>
         <li>projects</li>
