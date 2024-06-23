@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data/data';
 import Button from '../components/atoms/Button';
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -14,9 +15,9 @@ export const Footer = () => {
         <li>contact</li>
       </ul>
       <ul>
-        <li>linkedin</li>
-        <li>github</li>
-        <li>instagram</li>
+        <li><FaLinkedin />Linkedin</li>
+        <li><FaGithub />Github</li>
+        <li><FaInstagram />instagram</li>
       </ul>
       </div>
       <div>

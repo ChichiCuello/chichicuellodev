@@ -1,4 +1,14 @@
-import React from 'react'
+import React from 'react';
+import figma from '../assets/images/figma.png'
+import git from '../assets/images/git.png'
+import github from '../assets/images/github.png'
+import jira from '../assets/images/jira.png'
+import trello from '../assets/images/trello.png'
+import html from '../assets/images/html.png'
+import css from '../assets/images/css.png'
+import js from '../assets/images/js.png'
+import react from '../assets/images/react.png'
+import tailwind from '../assets/images/tailwind.png'
 
 export const Skills = () => {
   return (
@@ -8,36 +18,36 @@ export const Skills = () => {
         <div>
           <div>
             <ul>
-              <li>git</li>
-              <li>github</li>
+              <li><img src={git} alt="" /></li>
+              <li><img src={github} alt="" /></li>
             </ul>
           </div>
-          <h3>version ccontrol</h3>
+          <h3>version control</h3>
         </div>
         <div>
           <h3>ux/ui</h3>
           <div>
-            <p>figma</p>
+            <img src={figma} alt="" />
           </div>
         </div>
         <div>
           <div>
             <h3>project managment apps</h3>
             <ul>
-              <li>jira</li>
-              <li>trello</li>
+              <li><img src={jira} alt="" /></li>
+              <li><img src={trello} alt="" /></li>
             </ul>
           </div>
           <div>
             <div>
               <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>js</li>
+                <li><img src={html} alt="" /></li>
+                <li><img src={css} alt="" /></li>
+                <li><img src={js} alt="" /></li>
               </ul>
               <ul>
-                <li>react</li>
-                <li>tailwindcss</li>
+                <li><img src={react} alt="" /></li>
+                <li><img src={tailwind} alt="" /></li>
               </ul>
               <div><h3>frontend</h3></div>
             </div>

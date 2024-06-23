@@ -8,7 +8,7 @@ const data = {
   projects:{
     h2:'projects',
     project_1:{
-      img:'image source',
+      img:'',
       p:'"Foco" is a productivity app designed to help users stay focused and manage their time effectively. It features a sleek and intuitive interface, allowing users to set timers for work sessions and breaks, track their progress, and stay motivated throughout the day. The app aims to enhance productivity by promoting the Pomodoro technique, which encourages users to work in short, focused bursts with regular breaks.',
       btn_link:'link to code'
     },

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './atoms/Button'
-
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 export const Contact = () => {
   return (
     <div>
@@ -20,9 +20,9 @@ export const Contact = () => {
       </form>
       <div>
         <ul>
-          <li>linkedin</li>
-          <li>instagram</li>
-          <li>github</li>
+        <li><FaLinkedin />Linkedin</li>
+        <li><FaGithub />Github</li>
+        <li><FaInstagram />instagram</li>
         </ul>
       </div>
       <Button text="DOWNLOAD CV"/>
