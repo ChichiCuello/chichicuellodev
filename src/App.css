@@ -1,0 +1,43 @@
+.navbar {
+  margin:1rem 0 ;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  display: none; /* Hide on larger screens initially */
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.menu li{
+  color: var(--clr-accent-green);
+}
+.menu li:hover{
+  color: var(--clr-primary-purple);
+  letter-spacing: .25rem;
+}
+
+@media (max-width: 768px) {  /* For screens smaller than 768px */
+
+  .menu-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+
+  .menu {
+    display: none;  /* Hide menu by default on mobile */
+  }
+
+  .menu.open {  /* Show menu when isMenuOpen is true */
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+
