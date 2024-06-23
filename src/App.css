@@ -82,7 +82,9 @@
   padding: 3rem 0;
   margin: 0 20%;
 }
-
+.about button{
+  margin-bottom: 1rem;
+}
 @media (max-width: 768px) {
   .about{
     margin: 0 5%;
@@ -90,3 +92,51 @@
 }
 
 /* projects */
+.projects{
+  padding: 3rem 0;
+  margin: 0 10%;
+}
+
+.project{
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.project img{
+  /* min-width: 20rem; */
+  max-width: 60%; /* Allow proportional scaling */
+  flex-grow: 1; /* Fill available space */
+  background-color: var(--clr-accent-green);
+  padding: 1rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.buttons{
+  display: flex;
+  gap:1rem;
+}
+
+@media (max-width: 768px) {
+ .project{
+  flex-direction: column;
+  align-items: center;
+ }
+ .project img{
+  min-width: 15rem;
+ }
+ .tech ul{
+  display: flex;
+  gap: .8rem;
+ }
+ .project:nth-child(2){
+  flex-direction: column-reverse;
+ }
+}

@@ -11,48 +11,48 @@ export const Projects = () => {
     <section id='projects' className='projects'>
       <h2>{data.projects.h2}</h2>
       <div>
-        <div>
+        <div className='project'>
           <img src={projectImage_1} alt="this is an image of project one" />
-          <div>
+          <div className='info'>
             <p>{data.projects.project_1.p}</p>
-            <Button text="CODE"/>
-
+            <Button text="CODE" className='code'/>
           </div>
-          <div>
+          <div className='tech'>
             <ul>
-            <li><FaHtml5 /></li>
-            <li><FaCss3Alt /></li>
-            <li><FaJs /></li>
+          <li><FaHtml5  style={{ fontSize: '32px' }} /></li>
+            <li><FaCss3Alt style={{ fontSize: '32px' }}/></li>
+            <li><FaJs style={{ fontSize: '32px' }}/></li>
             </ul>
           </div>
         </div>
-        <div>
-          <img src={projectImage_2}  alt="this is an image of project two" />
-          <div>
+        <div className='project'>
+          <div className='tech'>
+            <ul>
+              <li><FaHtml5 style={{ fontSize: '32px' }}/></li>
+              <li><FaCss3Alt style={{ fontSize: '32px' }}/></li>
+              <li><FaReact style={{ fontSize: '32px' }}/></li>
+            </ul>
+          </div>
+          <div className='info'>
             <p>{data.projects.project_2.p}</p>
+            <div className='buttons'>
             <Button text="CODE"/>
             <Button text="Figma"/>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li><FaHtml5 /></li>
-              <li><FaCss3Alt /></li>
-              <li><FaReact /></li>
-            </ul>
-          </div>
+          <img src={projectImage_2}  alt="this is an image of project two" />
         </div>
-        <div>
+        <div className='project'>
           <img src={projectImage_3}  alt="this is an image of project three" />
-          <div>
+          <div className='info'>
             <p>{data.projects.project_3.p}</p>
             <Button text="CODE"/>
-
           </div>
-          <div>
+          <div className='tech'>
             <ul>
-            <li><FaHtml5 /></li>
-            <li><FaCss3Alt /></li>
-            <li><FaJs /></li>
+            <li><FaHtml5 style={{ fontSize: '32px' }}/></li>
+            <li><FaCss3Alt style={{ fontSize: '32px' }}/></li>
+            <li><FaJs style={{ fontSize: '32px' }}/></li>
             </ul>
           </div>
         </div>
