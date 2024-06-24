@@ -5,9 +5,12 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div>
+    <section id='footer' className='footer'>
+      <div className='row'>
       <div>
-      <h3>CHICHI CUELLO</h3>
+      <h3 className='title'><span aria-hidden='true'>chichi</span>chichi</h3><br />
+      <h3 className='title'><span aria-hidden='true'>cuello</span>cuello</h3>
+      </div>
       <ul>
         <li>about</li>
         <li>projects</li>
@@ -15,22 +18,22 @@ export const Footer = () => {
         <li>contact</li>
       </ul>
       <ul>
-        <li><FaLinkedin />Linkedin</li>
-        <li><FaGithub />Github</li>
-        <li><FaInstagram />instagram</li>
+        <li><FaLinkedin /></li>
+        <li><FaGithub /></li>
+        <li><FaInstagram /></li>
       </ul>
       </div>
-      <div>
+      <div className='buttons'>
         <Button text="DOWNLOAD CV"/>
         <Button text={data.about.btn_email} />
       </div>
-      <div>
+      <div className='lang'>
         <ul><li>english
           </li>
           <li>spanish</li>
           </ul>
       </div>
       <small>@2024 Chichi Cuello</small>
-    </div>
+    </section>
   )
 }
