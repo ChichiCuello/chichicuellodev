@@ -62,8 +62,12 @@ li{
   text-decoration: none;
   list-style: none;
 }
+label{
+  font-size: 18px;
+}
 p{
   margin-top: 0;
+  font-size: 18px;
 }
 .section{
   padding: 4rem 0;

@@ -19,16 +19,20 @@ export const Contact = () => {
         </label>
         <textarea name="message" id="message"></textarea></div>
 
-        <button type="submit">SEND</button>
+        <Button type="submit" text='SEND' />
       </form>
       <div>
+      <div className='socials'>
         <ul>
-        <li><FaLinkedin />Linkedin</li>
-        <li><FaGithub />Github</li>
-        <li><FaInstagram />instagram</li>
+        <li><FaLinkedin style={{fontSize:'32'}}/></li>
+        <li><FaGithub style={{fontSize:'32'}} /></li>
+        <li><FaInstagram style={{fontSize:'32'}} /></li>
         </ul>
+        <Button text="DOWNLOAD CV"/>
       </div>
-      <Button text="DOWNLOAD CV"/>
+      
+      </div>
+
     </section>
   )
 }
