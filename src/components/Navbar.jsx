@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { IconContext } from "react-icons";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { HashLink as Link } from 'react-router-hash-link';
 /* import '../App.css' */
 
 export const Navbar = () => {
@@ -24,10 +25,10 @@ export const Navbar = () => {
           </IconContext.Provider>
       </a>
       <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>  {/* Conditional class for opening/closing */}
-        <li>about</li>
-        <li>projects</li>
-        <li>skills</li>
-        <li>contact</li>
+        <Link smooth to='/#about' onClick={closeMenu}><li>about</li></Link>
+        <Link smooth to='/#projects' onClick={closeMenu}><li>projects</li></Link>
+        <Link smooth to='/#skills' onClick={closeMenu}><li>skills</li></Link>
+        <Link smooth to='/#contact' onClick={closeMenu}><li>contact</li></Link>
       </ul>
     </div>
   )

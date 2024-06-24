@@ -28,9 +28,8 @@ export const Contact = () => {
         <li><FaGithub style={{fontSize:'32'}} /></li>
         <li><FaInstagram style={{fontSize:'32'}} /></li>
         </ul>
-        <Button text="DOWNLOAD CV"/>
+        <Button text="DOWNLOAD CV" className='glow'/>
       </div>
-      
       </div>
 
     </section>

@@ -7,4 +7,9 @@ Adding a CSS Reset
 npm install react-icons --save
 
 # RACT ROUTER LINKS
-npm install react-router-dom # always need this!
+npm install react-router-dom 
+npm install react-router-hash-link
+
+
+# REACT SMOOTH SCROLL
+npm i -S react-scroll

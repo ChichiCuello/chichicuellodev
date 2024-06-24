@@ -1,6 +1,82 @@
 .button{
   background-color: var(--clr-primary-purple);
   color: var(--clr-body-white);
+  font-weight: 700;
   /* margin-bottom: 0.5rem; */
-  padding: 1rem 1.25rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: .25rem;
 }
+
+/* glow animation */
+.glow{
+  position: relative;
+  z-index: 0;
+}
+
+.glow::after{
+  content:" ";
+  position: absolute;
+  background-color: var(--clr-primary-purple);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: .25rem;
+}
+
+.glow::before{
+  content: "";
+  background: linear-gradient(
+    45deg,
+    var(--clr-primary-purple), #FF7300, #FFFB00, var(--clr-accent-green),
+    #00FFD5, #002BFF, #FF00FF, var(--clr-primary-purple)
+    );
+  position: absolute;
+  width: calc(100% + 0.25rem);
+  height: calc(100% + 0.25rem);
+  top: -0.125rem;
+  left: -0.125rem;
+  background-size: 600%;
+  z-index: -1;
+  filter: blur(0.5rem);
+
+  animation: glowing 10s linear infinite ;
+  transition: opacity .3s ease-in-out;
+  border-radius: .25rem;
+  opacity: 0;
+
+}
+
+@keyframes glowing {
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+.glow:hover::before{
+  opacity: 1;
+}
+
+
+.glow:active::after{
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+

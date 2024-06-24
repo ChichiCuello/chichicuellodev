@@ -47,6 +47,7 @@ button{
   cursor: pointer;
   display: block;
   border: none;
+  outline: none;
 }
 
 ul{
@@ -54,8 +55,8 @@ ul{
   padding: 0 0 0 0;
 }
 a {
-  color: var(--clr-gray-body);
   cursor: pointer;
+  text-decoration: none;
 }
 
 li{
@@ -75,4 +76,19 @@ p{
 
 .basic-margin {
   margin: 0 10%;
+}
+
+.email{
+  display: inline-flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 1rem;
+  background-color: var(--clr-primary-purple);
+  color: var(--clr-body-white);
+  /* margin-bottom: 0.5rem; */
+  padding: 0.8rem 1.5rem;
+  border-radius: .25rem;
+}
+
+.email img{
+  cursor: pointer;
 }
