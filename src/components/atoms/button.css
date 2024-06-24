@@ -1,6 +1,6 @@
 .button{
   background-color: var(--clr-primary-purple);
   color: var(--clr-body-white);
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   padding: 1rem 1.25rem;
 }
