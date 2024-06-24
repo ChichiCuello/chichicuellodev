@@ -69,6 +69,7 @@ label{
 p{
   margin-top: 0;
   font-size: 18px;
+  line-height: 150%;
 }
 .section{
   padding: 4rem 0;
@@ -91,4 +92,20 @@ p{
 
 .email img{
   cursor: pointer;
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
 }

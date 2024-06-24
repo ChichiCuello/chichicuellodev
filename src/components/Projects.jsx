@@ -6,9 +6,14 @@ import projectImage_1 from '../assets/images/foco-website.png';
 import projectImage_2 from '../assets/images/ods-website.png';
 import projectImage_3 from '../assets/images/cf-website.png';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css"
+
+
 export const Projects = () => {
   return (
     <section id='projects' className='projects'>
+      <ScrollAnimation animateIn="fadeIn">
       <h2>{data.projects.h2}</h2>
       <div>
         <div className='project'>
@@ -57,6 +62,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      </ScrollAnimation>
     </section>
   )
 }

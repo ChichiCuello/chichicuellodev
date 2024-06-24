@@ -13,3 +13,7 @@ npm install react-router-hash-link
 
 # REACT SMOOTH SCROLL
 npm i -S react-scroll
+
+# REACT animations
+npm install react-animate-on-scroll --save
+npm install animate.css --save

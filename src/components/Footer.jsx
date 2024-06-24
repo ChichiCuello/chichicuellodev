@@ -1,11 +1,12 @@
 import React from 'react';
-import data from '../data/data';
 import Button from '../components/atoms/Button';
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { HashLink as Link } from 'react-router-hash-link';
+import Email from './atoms/Email'
 
 
 export const Footer = () => {
+  const email = 'chichicuellodev@gmail.com';
 
   return (
     <section id='footer' className='footer'>
@@ -28,7 +29,7 @@ export const Footer = () => {
       </div>
       <div className='buttons'>
         <Button text="DOWNLOAD CV" className='glow'/>
-        <Button text={data.about.btn_email} className='email' />
+        <Email email={email} />
       </div>
       <div className='lang'>
         <ul><li>english

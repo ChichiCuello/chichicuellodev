@@ -10,8 +10,12 @@ import js from '../assets/images/js.png'
 import react from '../assets/images/react.png'
 import tailwind from '../assets/images/tailwind.png'
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css"
+
 export const Skills = () => {
   return (<section className='skills' id='skills'>
+    <ScrollAnimation animateIn="fadeIn">
   <h2>skills</h2>
   <div class="parent">
     <div class="div1 tech-stack">
@@ -38,6 +42,7 @@ export const Skills = () => {
           <div><img src={tailwind} alt="" /></div>
         </div>
 </div>
+</ScrollAnimation>
   </section>
 
   )

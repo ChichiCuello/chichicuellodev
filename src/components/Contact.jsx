@@ -1,9 +1,12 @@
 import React from 'react';
 import Button from './atoms/Button'
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css"
 export const Contact = () => {
   return (
     <section id='contact' className='contact'>
+       <ScrollAnimation animateIn="fadeIn">
       <h2>contact</h2>
       <p>feel free to contact me below if you have any questions, or email me at chichicuellodev@gmail.com</p>
       <form className='form'>
@@ -31,7 +34,7 @@ export const Contact = () => {
         <Button text="DOWNLOAD CV" className='glow'/>
       </div>
       </div>
-
+      </ScrollAnimation>
     </section>
   )
 }
