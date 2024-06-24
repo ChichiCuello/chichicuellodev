@@ -5,3 +5,6 @@ Adding a CSS Reset
 
 # REACT ICONS
 npm install react-icons --save
+
+# RACT ROUTER LINKS
+npm install react-router-dom # always need this!
