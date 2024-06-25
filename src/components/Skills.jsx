@@ -17,7 +17,7 @@ export const Skills = () => {
   return (<section className='skills' id='skills'>
     <ScrollAnimation animateIn="fadeIn">
   <h2>skills</h2>
-  <div class="parent">
+  <div class="parent glow">
     <div class="div1 tech-stack green">
       <div><img src={git} alt="" /></div>
       <div><img src={github} alt="" /></div>
