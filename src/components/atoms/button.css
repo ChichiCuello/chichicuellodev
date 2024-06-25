@@ -69,7 +69,39 @@
   background: transparent;
 }
 
+/* 
+.glower {
+  position: relative;
+  background-color: #FF00FF;
+}
 
+.glower::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  border-top: 0.125rem solid var(--clr-accent-green);
+  border-right: 0.125rem solid var(--clr-accent-green);
+  border-radius: .25rem;
+  animation: border-top 2s linear;
+}
+
+@keyframes border-top {
+  from{
+    width: 0;
+    height: 0;
+  }
+  50%{
+    width: 100%;
+    height: 0;
+  }
+  to{
+    width:100%;
+    height: 100%;
+  }
+} */
 
 
 

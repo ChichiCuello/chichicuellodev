@@ -14,7 +14,6 @@ export const About = () => {
       <p>{data.about.p_1}</p>
       <p>{data.about.p_2}</p>
       <Button text="DOWNLOAD CV" className='glow'/>
-      {/* <Button text={data.about.btn_email} /> */}
       <Email email={email} />
       </ScrollAnimation>
     </section>

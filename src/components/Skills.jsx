@@ -18,26 +18,26 @@ export const Skills = () => {
     <ScrollAnimation animateIn="fadeIn">
   <h2>skills</h2>
   <div class="parent">
-    <div class="div1 tech-stack">
+    <div class="div1 tech-stack green">
       <div><img src={git} alt="" /></div>
       <div><img src={github} alt="" /></div>
     </div>
-    <div class="div2 subtitle"><h4>version control</h4> </div>
-    <div class="div3 subtitle"><h4>ux/ui</h4> </div>
-    <div class="div4 tech-stack"><div><img src={figma} alt="" /></div></div>
-    <div class="div5 subtitle"><h4>project managment apps</h4> </div>
-    <div class="div6 tech-stack">
+    <div class="div2 subtitle green"><h4>version control</h4> </div>
+    <div class="div3 subtitle purple"><h4>ux/ui</h4> </div>
+    <div class="div4 tech-stack purple"><div><img src={figma} alt="" /></div></div>
+    <div class="div5 subtitle purple"><h4>project managment apps</h4> </div>
+    <div class="div6 tech-stack purple">
       <div>
         <img src={jira} alt="" /></div>
         <div><img src={trello} alt="" /></div>
         </div>
-    <div class="div7 tech-stack">
+    <div class="div7 tech-stack green">
           <div><img src={html} alt="" /></div>
           <div><img src={css} alt="" /></div>
           <div><img src={js} alt="" /></div>
  </div>
-      <div class="div8 subtitle"><h4>frontend</h4> </div>
-    <div class="div9 tech-stack">
+      <div class="div8 subtitle green"><h4>frontend</h4> </div>
+    <div class="div9 tech-stack green">
           <div><img src={react} alt="" /></div>
           <div><img src={tailwind} alt="" /></div>
         </div>

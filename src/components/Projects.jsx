@@ -41,7 +41,7 @@ export const Projects = () => {
           <div className='info'>
             <p>{data.projects.project_2.p}</p>
             <div className='buttons'>
-            <Button text="CODE"/>
+            <Button text="CODE" className='glower'/>
             <Button text="Figma"/>
             </div>
           </div>
