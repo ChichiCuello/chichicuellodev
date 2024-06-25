@@ -161,15 +161,20 @@
   align-items: start;
   gap: 1rem;
   padding: 3rem 0;
+  position: relative;
 }
 
+
 .project img{
-  /* min-width: 20rem; */
-  max-width: 60%; /* Allow proportional scaling */
+  position: relative;
+  max-width: 60%;
   flex-grow: 1; /* Fill available space */
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+
+}
+.project img:hover{
   background-color: var(--clr-accent-green);
-  padding: 1rem;
-  border-radius: .25rem;
 }
 
 .info{
@@ -183,6 +188,81 @@
   display: flex;
   gap:1rem;
 }
+
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+
+.tech {
+  position: relative;
+  border-radius: 0.25rem;
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+.tech ul {
+  position: relative;
+}
+
+.tech ul li {
+  position: relative;
+  z-index: 10; /* Ensure the list and its items are in front of the pseudo-element */
+}
+
+.tech::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: inherit;
+  background-image: linear-gradient(
+    var(--rotate)
+    , var(--clr-primary-purple), var(--clr-accent-green) 43%, var(--clr-primary-purple));
+  position: absolute;
+  top: -1%;
+  left: -2%;
+  animation: spin 2.5s linear infinite;
+  z-index: -1;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
  .project{
