@@ -20,7 +20,7 @@ export const Projects = () => {
           <img src={projectImage_1} alt="this is an image of project one" />
           <div className='info'>
             <p>{data.projects.project_1.p}</p>
-            <Button text="CODE" className='code'/>
+            <Button text="CODE" className='code glow'/>
           </div>
           <div className='tech'>
             <ul>
@@ -41,8 +41,8 @@ export const Projects = () => {
           <div className='info'>
             <p>{data.projects.project_2.p}</p>
             <div className='buttons'>
-            <Button text="CODE" className='glower'/>
-            <Button text="Figma"/>
+            <Button text="CODE" className='glow'/>
+            <Button text="Figma" className='glow'/>
             </div>
           </div>
           <img src={projectImage_2}  alt="this is an image of project two" />
@@ -51,7 +51,7 @@ export const Projects = () => {
           <img src={projectImage_3}  alt="this is an image of project three" />
           <div className='info'>
             <p>{data.projects.project_3.p}</p>
-            <Button text="CODE"/>
+            <Button text="CODE" className='glow'/>
           </div>
           <div className='tech'>
             <ul>

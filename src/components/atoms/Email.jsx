@@ -11,7 +11,7 @@ const copyText = (text) => {
 
 const Email = ({ email }) => {
   return (
-    <div className="email">
+    <div className="email glow">
       {email} <img src={copyIcon} alt="Copy Icon" onClick={() => copyText(email)}/>
     </div>
   );

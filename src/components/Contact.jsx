@@ -85,7 +85,7 @@ const isValidEmail = (email) =>{
           </label>
           <textarea name="message" id="message" value={message} onChange={(e) => { setMessage(e.target.value)}}></textarea></div>
           {errors.message && <span className='error'>{errors.message}</span>}
-        <Button type="submit" text='SEND' /* onClick={openModal} */ />
+        <Button type="submit" text='SEND' /* onClick={openModal} */ className='glow' />
       </form>
       {/* {isModalOpen && <PopupModal isOpen={isModalOpen} onClose={closeModal} />} */}
       <div>
