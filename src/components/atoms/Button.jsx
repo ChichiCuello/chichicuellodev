@@ -1,11 +1,11 @@
 import React from 'react';
 import './button.css'
 
-const Button = ({ text, onClick, type = 'button', className = '' }) => {
+const Button = ({ text, onClick, type = 'button', className = '', href , target}) => {
   return (
-    <button type={type} className={`button ${className}`} onClick={onClick}>
+    <a type={type} className={`button ${className}`} onClick={onClick} href={href} target={target}>
       {text}
-    </button>
+    </a>
   );
 };
 

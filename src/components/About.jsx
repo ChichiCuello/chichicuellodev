@@ -13,8 +13,10 @@ export const About = () => {
       <h2>{data.about.h2}</h2>
       <p>{data.about.p_1}</p>
       <p>{data.about.p_2}</p>
+      <div className='buttons-about'>
       <Button text="DOWNLOAD CV" className='glow'/>
       <Email email={email}/>
+      </div>
       </ScrollAnimation>
     </section>
   )

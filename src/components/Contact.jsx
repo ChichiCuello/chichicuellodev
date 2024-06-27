@@ -91,9 +91,9 @@ const isValidEmail = (email) =>{
       <div>
       <div className='socials'>
         <ul>
-        <li><FaLinkedin style={{fontSize:'32'}}/></li>
-        <li><FaGithub style={{fontSize:'32'}} /></li>
-        <li><FaInstagram style={{fontSize:'32'}} /></li>
+        <li><a href="https://www.linkedin.com/in/maria-agustina-cuello/?locale=en_US" target='_blank'><FaLinkedin style={{fontSize:'32'}}/></a></li>
+        <li><a href="https://github.com/ChichiCuello" target='_blank'><FaGithub style={{fontSize:'32'}} /></a></li>
+        <li><a href="https://www.instagram.com/chichicuellodev/" target='_blank'><FaInstagram style={{fontSize:'32'}} /></a></li>
         </ul>
         <Button text="DOWNLOAD CV" className='glow'/>
       </div>

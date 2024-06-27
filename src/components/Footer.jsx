@@ -22,9 +22,9 @@ export const Footer = () => {
       <Link smooth to='/#contact'><li>contact</li></Link>
       </ul>
       <ul>
-        <li><FaLinkedin /></li>
-        <li><FaGithub /></li>
-        <li><FaInstagram /></li>
+      <li><a href="https://www.linkedin.com/in/maria-agustina-cuello/?locale=en_US" target='_blank'><FaLinkedin /></a></li>
+        <li><a href="https://github.com/ChichiCuello" target='_blank'><FaGithub  /></a></li>
+        <li><a href="https://www.instagram.com/chichicuellodev/" target='_blank'><FaInstagram /></a></li>
       </ul>
       </div>
       <div className='buttons'>
